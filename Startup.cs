@@ -25,6 +25,8 @@ namespace SDP2Vladislav
 			{
 				app.UseDeveloperExceptionPage();
 			}
+			app.UseDefaultFiles();
+			app.UseStaticFiles();
 
 			app.UseRouting();
 
